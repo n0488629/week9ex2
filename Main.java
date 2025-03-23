@@ -11,9 +11,9 @@ public class Main {
       
 
       int area = length * width; // calculate total area
-      int perimeter = length + length + width + width;
+      int perimeter = length + length + width + width; // calculate total perimeter kept it simple to avoid mistakes
        System.out.println("Results:");
-       System.out.println("Area of the rectangle: " + area);
+       System.out.println("Area of the rectangle: " + area); // output for user
        System.out.println("Perimeter of the rectangle: " + perimeter);
       myObj.close(); // close scanner object
     }
